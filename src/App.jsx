@@ -1,7 +1,6 @@
-import {useRef, Suspense, useMemo, useState, useEffect} from 'react'
+import {useRef, useMemo, useState, useEffect} from 'react'
 import './App.css'
 import {Canvas, useFrame, useThree} from '@react-three/fiber'
-import * as THREE from 'three'
 import { useControls } from 'leva'
 import {OrbitControls, PerspectiveCamera} from '@react-three/drei'
 import vertexShader from "./components/vertexShader.glsl?raw";
